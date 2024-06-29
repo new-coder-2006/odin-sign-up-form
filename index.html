@@ -30,22 +30,27 @@
         <div class="card">
             <form>
                 <legend>Let's do this!</legend>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name">
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
-                <label for="confirm-pw">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm-pw" name="confirm-pw">
-                
+                <div class="fields">
+                    <div class="column-one">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="column-one">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                        <label for="confirm-pw">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-pw" name="confirm-pw">
+                    </div>
+                </div>
                 <div class="bottom">
                     <button type="submit">Create Account</button>
-                    <h5>Already have an account? Log in</h5>
+                    <h5>Already have an account? <strong>Log in</strong></h5>
                 </div>            
             </form>
         </div>

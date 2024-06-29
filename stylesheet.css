@@ -7,9 +7,9 @@
 
 html, body {
     display: flex;
-    height: 100%;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 h1 {
@@ -30,7 +30,7 @@ legend {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 550;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 button {
@@ -41,6 +41,34 @@ button {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    color: #62784f;
 }
 
 footer, a {
@@ -100,4 +128,18 @@ footer {
 
 .paragraph {
     padding: 100px 150px 0px 50px;
+}
+
+.fields {
+    display: flex;
+    gap: 70px;
+}
+
+.column-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    padding-top: 50px;
 }
